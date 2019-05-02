@@ -1,0 +1,184 @@
+.easyCookieContainer
+{
+    position: fixed;
+    padding: 8px;
+    z-index: 10000;
+}
+
+.easyCookieContainer.bottomTemplate
+{
+    bottom: 0;
+}
+
+.easyCookieContainer.topTemplate
+{
+    top: 0;
+}
+
+.easyCookieContainer.leftTemplate
+{
+    left: 0;
+}
+
+.easyCookieContainer.centerTemplate
+{
+    right: 0;
+    left: 0;
+}
+
+.easyCookieContainer.rightTemplate
+{
+    right: 0;
+}
+
+.easyCookieContainer > .buttonsContainer
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.easyCookieContainer > .buttonsContainer > a
+{
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.easyCookieContainer > .buttonsContainer > a.acceptButton
+{
+    background-color: #009688;
+}
+
+.easyCookieContainer > .buttonsContainer > a.acceptButton:hover
+{
+    background-color: #005f54;
+}
+
+.easyCookieContainer > .buttonsContainer > a.declineButton
+{
+    background-color: #e91e63;
+}
+
+.easyCookieContainer > .buttonsContainer > a.declineButton:hover
+{
+    background-color: #7c1638;
+}
+
+.easyCookieContainer > .buttonsContainer > a.moreInfoButton
+{
+    background-color: #3f51b5;
+}
+
+.easyCookieContainer > .buttonsContainer > a.moreInfoButton:hover
+{
+    background-color: #27336a;
+}
+
+.easyCookieContainer.defaultBar
+{
+    background-color: #212121;
+    color: #ffffff;
+    text-align: center;
+}
+
+.easyCookieContainer.lightBar
+{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.easyCookieContainer.darkBar
+{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.easyCookieContainer > .buttonsContainer.rounded > a
+{
+    border-radius: 16px;
+}
+
+/* Light buttons */
+.easyCookieContainer.lightBar > .buttonsContainer.light > a
+{
+    color: #000;
+}
+
+.easyCookieContainer.lightBar > .buttonsContainer.light > a:hover
+{
+    color: #fff;
+}
+
+.easyCookieContainer > .buttonsContainer.light > a.acceptButton
+{
+    background-color: transparent;
+    border: 1px solid #009688;
+}
+
+.easyCookieContainer > .buttonsContainer.light  > a.acceptButton:hover
+{
+    background-color: #005f54;
+}
+
+.easyCookieContainer > .buttonsContainer.light  > a.declineButton
+{
+    background-color: transparent;
+    border: 1px solid #e91e63;
+}
+
+.easyCookieContainer > .buttonsContainer.light  > a.declineButton:hover
+{
+    background-color: #7c1638;
+}
+
+.easyCookieContainer > .buttonsContainer.light  > a.moreInfoButton
+{
+    background-color: transparent;
+    border: 1px solid #3f51b5;
+}
+
+.easyCookieContainer > .buttonsContainer.light  > a.moreInfoButton:hover
+{
+    background-color: #27336a;
+}
+
+/* Dark buttons */
+.easyCookieContainer > .buttonsContainer.dark > a.acceptButton
+{
+    background-color: #393f4d;
+    color: #d4d4dc;
+}
+
+.easyCookieContainer > .buttonsContainer.dark > a.acceptButton:hover
+{
+    background-color: #1d1e22;
+}
+
+.easyCookieContainer > .buttonsContainer.dark > a.declineButton
+{
+    background-color: #393f4d;
+    color: #d4d4dc;
+}
+
+.easyCookieContainer > .buttonsContainer.dark > a.declineButton:hover
+{
+    background-color: #1d1e22;
+}
+
+.easyCookieContainer > .buttonsContainer.dark > a.moreInfoButton
+{
+    background-color: #393f4d;
+    color: #d4d4dc;
+}
+
+.easyCookieContainer > .buttonsContainer.dark > a.moreInfoButton:hover
+{
+    background-color: #1d1e22;
+}

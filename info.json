@@ -1,0 +1,9 @@
+{
+  "name": "easyCookie",
+  "description": "A simple and customizable cookie notice",
+  "url": "",
+  "author": "Stefano Valenzano",
+  "author url": "tuttarealstep.github.io",
+  "version": 1.0,
+  "pluginFile": "easyCookie.php"
+}
